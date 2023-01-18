@@ -5,8 +5,9 @@ function header(props) {
   return (
     <>
       <ul>
+        <Link to="/"><li style={{float: 'left', marginRight: '10px'}}>logo</li></Link> 
 				<Link to="/login"><li style={{float: 'left', marginRight: '10px'}}>login</li></Link>
-        <Link to="/"><li>main</li></Link>
+        <Link to="/join"><li>join</li></Link>
 			</ul>
     </>
   );
