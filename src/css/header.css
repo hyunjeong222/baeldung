@@ -1,0 +1,112 @@
+.header-menu {
+    width: auto;
+    height: 50px;
+    background-color: #63B175;
+}
+
+.menu-container {
+    max-width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-inner {
+    height: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu-item {
+    width: 50px;
+    height: 50px;
+    background-color: #4e9359;
+    margin-right: 30px;
+}
+
+.nav-menu-item-icon {
+    display: inline-block;
+    padding: 18px 14px;
+    margin: 7px 11px;
+    background: url(../images/menu.png) no-repeat;
+    background-size: 28px 36px;
+    cursor: pointer;
+}
+
+.nav-menu-logo {
+    width: 180px;
+    height: 40px;
+    margin-right: calc(33% - 265px);
+}
+
+.anchor {
+    display: contents;
+    cursor: pointer;
+}
+
+.nav-menu-list {
+    height: 50px;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    padding: 15px;
+}
+
+.nav-menu-list a {
+    color: #fff;
+}
+
+.menu-item-normal {
+    font-size: .4em;
+    vertical-align: 1px;
+    display: inline;
+    color: #fff;
+}
+
+.menu-item-active {
+    display: none;
+    font-size: .4em;
+    vertical-align: 1px;
+    /* display: inline; */
+    color: #fff;
+}
+
+.nav-menu-item-rss {
+    display: inline-block;
+    padding: 11px 11px;
+    background: url(../images/rss.png) no-repeat;
+    background-size: 22px 22px;
+    cursor: pointer;
+}
+
+
+.nav-menu-user {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    padding: 15px;
+    padding-right: 100px !important;
+}
+
+.nav-menu-item-join {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav-menu-item-login {
+    font-size: 14px;
+    color: #fff;
+}
